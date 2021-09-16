@@ -1,0 +1,50 @@
+body{
+    background-color:#EEE;
+    }
+main{
+    border: 5px solid #AAA;
+    width: 33vw;
+    height: 40vh;
+    border-radius: 15px;    
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    text-align: center;
+}
+img{
+    margin-top: 20px;
+    width: 10vw;
+    height: auto;    
+}
+hr{
+    background-color: red;
+}
+#usuario{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#senha{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+#gbotao{
+    border-top: 1px gray solid;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+button{    
+    color:#AAA;
+    border-radius: 10px;
+    border:2px #AAA solid;
+
+}
+button:hover{
+    color:blue;
+    border:2px blue solid;
+}
+span{    
+    color:gray;
+}
