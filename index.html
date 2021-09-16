@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login  FACEPE</title>
+</head>
+<body>
+    <main>
+        <img src="facepelogo.png" alt="Logo FACEPE">
+        <hr>
+            <input id="usuario" type="text" name="usuario" placeholder="Usuário">            
+            <input id="senha" type="password" name="senha" placeholder="Senha">
+            <div id="gbotao">
+                <input id="lembrar" type="checkbox">
+                <span>Lembrar-me</span>    
+                <button type="reset" id="limpar">Limpar</button>
+                <button type="submit" id="enviar" onclick="atribue()">Logon</button>                                
+            </div>
+       
+    </main>
+</body>
+</html>
+
+
+<script>
+
+    function atribue(){
+        document.getElementById("usuario").value = "selecionado";        
+    }
+
+    let aula ='JS';
+    if(aula == 'JS'){
+     //   alert("Ola turma, veremos "+nome);
+    }
+</script>
